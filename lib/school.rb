@@ -20,8 +20,8 @@ class School
 
     def sort
       sorted = {}
-      roster.each do |g, s|
-        sorted[g] = s.sort
+      roster.each do |grd, stdt|
+        sorted[grd] = stdt.sort
       end
       sorted
     end
